@@ -1,6 +1,6 @@
 import React from "react"
 import './about.css'
-// import {ME} from '../../assets/me.png'
+import ME from '../../assets/about-me.png'
 import {GrProjects} from 'react-icons/gr'
 import {ImBlog} from 'react-icons/im'
 import {GiBurningPassion} from 'react-icons/gi'
@@ -13,9 +13,9 @@ function About(){
 
         <div className="container about__container">
             <div className="about__me">
-                {/* <div className="about__me-image">
-                    <img src={ME} alt="About image" />
-                </div> */}
+                <div className="about__me-image">
+                    <img src={ME} alt="About" />
+                </div>
             </div>
             <div className="about__content">
                 <div className="about__cards">
@@ -45,7 +45,7 @@ function About(){
 
                 </div>
                 <p>
-                    Lorem ipsum,
+                    Lorem ipsum, s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
                 </p>
                 <a href="#contact" className="btn btn-primary">Send Location</a>
             </div>
